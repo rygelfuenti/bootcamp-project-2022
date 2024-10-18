@@ -1,8 +1,8 @@
 :root {
     /* variables */
     --cg-black: rgb(34, 34, 34);
-    --cg-blue: rgb(20, 188, 191);
-    --cg-grey: rgb(20, 188, 191);
+    --cg-blue: rgb(215, 215, 215);
+    --cg-grey: rgb(255, 255, 255);
     --cg-white: rgb(255, 255, 255);
   }
   
@@ -267,4 +267,49 @@
     width: 100%;
     height: 2.5rem;
   }
+  
+  /* CSS For Blog Page */
+  #blog-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 20px;
+  }
+
+  .blog-post {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  .blog-post h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+
+  .blog-post img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+
+  .blog-post p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666;
+  }
+  
+  .blog-image {
+    display: flex;
+    flex-direction: column;
+    width: 100;
+    max-width: 600px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    text-align: center;
+  }
+
   
